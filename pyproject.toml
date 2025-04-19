@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatching >= 1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_asenetcky"
+version = "0.0.1"
+authors = [
+  { name="Alexander Senetcky", email="asenetcky@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/asenetcky/py-package-tutorial"
+Issues = "https://github.com/asenetcky/py-package-tutorial/issues"
