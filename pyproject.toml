@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatching >= 1.25"]
-build-backend = "hatchling.build"
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "example_package_asenetcky"
